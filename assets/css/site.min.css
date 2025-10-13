@@ -1,0 +1,1 @@
+@import "reset.css";@import "layout.css";ul{margin:0;padding:0}li{list-style-type:none}a{color:inherit;text-decoration:none;&:hover{color:#a9a9a9;cursor:pointer}}em{color:var(--accent-color)}.danger{color:var(--danger-colour)}input{border:.05rem solid #f59e0b}input:focus,textarea:focus{background-color:#fff9c4;outline:none}

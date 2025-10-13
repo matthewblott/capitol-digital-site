@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Capitol Digital">
+  <title>Capitol Creative</title>
+  
+  <link rel="stylesheet" href="/assets/css/site.css">
+  
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body><header>
+
+  <label for="toggle"></label>
+  <input class="peer hidden" type="checkbox" id="toggle">
+
+  <img src="/assets/img/logo.png" alt="logo">
+  
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li>|</li>
+    <li><a href="/creative">Creative</a></li>
+    <li>|</li>
+    <li><a href="/marketing">Marketing</a> </li>
+    <li>|</li>
+    <li><a href="/production">Production</a></li>
+    <li>|</li>
+    <li><a href="/fulfilment">Fulfilment</a></li>
+    <li>|</li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  <svg viewBox="0 0 448 512">
+    <use href="/assets/icons/bars.svg#x" />
+  </svg>
+  <svg viewBox="0 0 448 512">
+    <use href="/assets/icons/xmark.svg#x" />
+  </svg>
+
+</header>
+
+  <main>
+    
+<div class="container">
+  <div></div>
+  <div>
+    <p>The team behind your next project, working with you on developing your brand for the visual space you want to occupy.</p>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <img class="swiper-slide" src="/assets/img/creative-1.jpg" alt="Creative 1">
+        <img class="swiper-slide" src="/assets/img/creative-2.png" alt="Creative 2">
+        <img class="swiper-slide" src="/assets/img/creative-3.png" alt="Creative 3">
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <p>
+      With our design team’s creative vision and skill set, Capitol can help you create a visual identity that conveys the message of your brand. Connecting the dots between you and your respective audiences.
+    </p>
+  </div>
+
+  <div>
+    <img src="/assets/icons/bulb.png" alt="Light bulb" width="75%">
+  </div>
+</div>
+
+  </main><footer>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/creative">Creative</a>
+      </li>
+    </ul>
+    <ul class="flex flex-col">
+      <li>
+        <a href="/marketing">Marketing</a>
+      </li>
+      <li>
+      <li>
+        <a href="/production">Production</a>
+      </li>
+    </ul>
+    <ul class="flex flex-col">
+      <li>
+        <a href="/fulfilment">Fulfilment</a>
+      </li>
+      <li>
+        <a href="/contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</footer>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>

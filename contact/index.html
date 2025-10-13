@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Capitol Digital">
+  <title>Get In Touch</title>
+  
+  <link rel="stylesheet" href="/assets/css/site.css">
+  
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+</head>
+
+<body><header>
+
+  <label for="toggle"></label>
+  <input class="peer hidden" type="checkbox" id="toggle">
+
+  <img src="/assets/img/logo.png" alt="logo">
+  
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li>|</li>
+    <li><a href="/creative">Creative</a></li>
+    <li>|</li>
+    <li><a href="/marketing">Marketing</a> </li>
+    <li>|</li>
+    <li><a href="/production">Production</a></li>
+    <li>|</li>
+    <li><a href="/fulfilment">Fulfilment</a></li>
+    <li>|</li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+  <svg viewBox="0 0 448 512">
+    <use href="/assets/icons/bars.svg#x" />
+  </svg>
+  <svg viewBox="0 0 448 512">
+    <use href="/assets/icons/xmark.svg#x" />
+  </svg>
+
+</header>
+
+  <main>
+    
+<style>
+
+.container {
+  display: grid;
+  grid-template-columns: 15% 50% 1fr;
+  gap: 1.25rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-top: 1.25rem;
+}
+
+.text-block {
+  font-size: 2.5rem;
+  color: #4B5563;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1.25rem;
+}
+
+.icon {
+  height: 2.5rem;
+  padding-right: 0.5rem;
+  fill: currentColor;
+}
+
+a:hover {
+  color: #9CA3AF;
+  cursor: pointer;
+}
+
+a {
+  display: flex;
+  flex-direction: row;
+}
+
+a span {
+  margin-left: 0.25rem;
+}
+
+img {
+  width: 100%;
+}
+
+svg {
+  height: 2.5rem;
+}
+
+.flex {
+  color: rgb(75 85 99);
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+
+</style>
+
+<div class="container grid gap-5 grid-cols-[15%_50%_1fr] px-10 pt-5">
+  <div></div>
+  <div class="text-4xl text-gray-600">
+    <div class="flex flex-row pb-5">
+      <svg class="fill-current h-10 pr-2" viewBox="0 0 448 512">
+        <use href="/assets/icons/house.svg#x" />
+      </svg>
+      14 Braiswick Place<br>
+      Basildon<br>
+      Essex<br>
+      SS15 6EB<br>
+    </div>
+
+    <div class="flex-row">
+      <svg class="fill-current h-10 pr-2" viewBox="0 0 448 512">
+        <use href="/assets/icons/phone.svg#x" />
+      </svg>
+      <span>01268 242111</span>
+    </div>
+
+    <a href="mailto:info@capitoldigital.com" target="_blank" rel="noreferrer" class="flex flex-row pb-5 hover:text-gray-400 cursor-pointer">
+      <svg class="fill-current h-10 pr-2" viewBox="0 0 448 512">
+        <use href="/assets/icons/envelope.svg#x" />
+      </svg>
+      <span class="ml-1">info@capitoldigital.com</span>
+    </a>
+
+    <div class="flex-row">
+      <svg class="fill-current h-10 pr-2" viewBox="0 0 448 512">
+        <use href="/assets/icons/globe.svg#x" />
+      </svg>
+      <span>capitoldigital.com</span>
+    </div>
+  </div>
+
+  <div>
+    <img src="/assets/icons/megaphone.png" alt="">
+  </div>
+</div>
+
+
+  </main><footer>
+  <nav>
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+      <li>
+        <a href="/creative">Creative</a>
+      </li>
+    </ul>
+    <ul class="flex flex-col">
+      <li>
+        <a href="/marketing">Marketing</a>
+      </li>
+      <li>
+      <li>
+        <a href="/production">Production</a>
+      </li>
+    </ul>
+    <ul class="flex flex-col">
+      <li>
+        <a href="/fulfilment">Fulfilment</a>
+      </li>
+      <li>
+        <a href="/contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</footer>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".swiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+</body>
+</html>
